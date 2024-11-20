@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Tweet Predictor",
+  "version": "1.0",
+  "description": "Predict the outcome of tweets using smart contracts.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "host_permissions": ["https://api.twitter.com/*"],
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+  }
+}
