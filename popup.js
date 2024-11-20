@@ -1,7 +1,7 @@
 import abi from './abi.json';  // This imports your abi.json
 
-const bearerToken = "AAAAAAAAAAAAAAAAAAAAAN0qxAEAAAAAYyysf1iXJ5sv2%2BMqCuGhc4Sb6T4%3DgmNqG5KpKALx3RxiBuownSNXTizbNMjptA5TpxJ05tcZjwtkV7";
-const contractAddress = "0xe7f1725e7734ce288f8367e1bb143e90bb3f0512";
+const bearerToken = "";// twitter barear key 
+const contractAddress = "";//after deploying the contract with deploy.js
 
 document.getElementById("fetch").addEventListener("click", async () => {
     const tweetId = document.getElementById("tweetId").value;
